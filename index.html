@@ -35,6 +35,11 @@
         overflow: hidden;
       }
       
+      .nav-bar img{
+        width: 30px;
+        height: 30px;
+      }
+      
       .nav-bar li{
         float: left;
       }
@@ -58,8 +63,95 @@
       .nav-bar a:hover{
         background-color: #16161b;
       }
+      
+      .banner{
+        width: 100%;
+      }
+      
+      .banner img{
+        width: 100%;
+        margin: 0px;
+      }
+      
+      .divider{
+        width: 100%;
+        height: 20px;
+        background-color: #DE98E6;
+        margin-top: -6px;
+      }
+      
+      .project-body{
+        width: 100%;
+      }
+      
+      .project-details{
+        width: 60%;
+        background-color: #FAF0E7;
+        padding-top: 2px;
+        float: left;
+      }
+      
+      .project-details img{
+        width: 45px;
+        height: 45px;
+      }
+      
+      .poster{
+        width: 40%;
+        float: right;
+      }
+      
+      .poster img{
+        width: 100%;
+      }
+      
+      .title{
+        width: 50%;
+        float: left;
+      }
+      
+      .right-section{
+        width: 40%;
+        float: right;
+        padding: 25px 25px 0 0;
+        text-align: right;      
+        line-height: 7px;
+      }
+      
+      .right-section img{
+        margin-top: -5px;
+      }
+      
+      .body-text{
+        width: 95%;
+        display: flex;
+        padding-left: 25px;
+        padding-right: 25px;
+      }
+      
+      body{
+        margin-left: 0px;
+        background-color: #2C2C35;
+      }
+      
+      h1, h2, h3{
+        font-family: "Poppins", sans-serif;
+        color: #2C2C35;
+      }
+      
+      h1{
+        margin-left: 25px;
+        font-size: 48px;
+        padding-bottom: 0px;
+        padding-top: 0px;
+        line-height: 45px;
+        text-align: left;
+      }
+      
     </style>
   </head>
+  
+  
   <body>
     <div class="wrapper">
       <div class="nav-bar">
@@ -68,9 +160,41 @@
           <li><a href="">GRAPHIC DESIGN</a></li>
           <li><a href="">COMPUTING</a></li>
           <li><a href="">ABOUT</a></li>
-          <li id="last-item"><a                 href="mailto:cmlppatt@uwaterloo.ca"><img src="mail_icon.png" alt="Clickable mail icon" style="width:30px;height:30px;"></a></li>
+          <li id="last-item"><a                 href="mailto:cmlppatt@uwaterloo.ca"><img src="mail_icon.png" alt="Clickable mail icon"></a></li>
         </ul>
       </div>
-  
+      <div class="banner">
+        <img src="sched-concert.jpg" alt="">
+      </div>
+      <div class="divider">  
+      </div>
+      <div class="project-body">
+        <div class="project-details">
+          <h1 class="title">
+            &#8202;Party<br>Anthem<br>Concert
+          </h1>
+          <div class="right-section">
+            <h2>
+              Event Branding
+            </h2>
+            <h3>
+                April 2023
+              </h3>
+              <img src="photoshop_logo.png" alt="Adobe Photoshop logo">
+              <img id="last-img" src="illustrator_logo.png" alt="Adobe Illustrator logo">
+          </div>
+          <div class="body-text">
+            Flashing lights, groovy music, and great times. Party Anthem Concert is a made up event targeting young adults fans of indie/alternative late-night music. Part of the french marketing campaign, both the poster and concert schedule use a dreamy colour palette paired with bold saturated graphics to hype up the event.    
+          </div>
+        </div>
+        <div class="poster">
+          <img src="poster-concert.png">
+        </div>
+      </div>
+      
+      
+      
+      
+    </div>
   </body>
 </html>
