@@ -3,7 +3,7 @@
   <head>
 	    <!-- created by Catherine Patterson on 29/01/25 -->
     <meta charset="UTF-8">
-    <title> Magazine - Project Details</title>
+    <title> Branding - Project Details</title>
   
     <!-- Poppins Header Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -17,7 +17,7 @@
     
     <style>
       .wrapper{
-        width: 100%;
+        width: 1200px;
         margin: auto;
         font-family: "Gelasio", serif;
       }
@@ -80,38 +80,23 @@
         margin-top: -6px;
       }
       
-      .project-body{
-        width: 100%;
-      }
-      
-      .project-details{
-        width: 60%;
-        padding-top: 2px;
+      .project-wrapper{
+        width: 40%;
         float: left;
       }
       
-      .project-details img{
-        width: 45px;
-        height: 45px;
-      }
-      
-      .poster{
-        width: 40%;
-        float: right;
-      }
-      
-      .poster img{
+      .project-header{
         width: 100%;
+        float: left;
+        background-color: #FAF0E7;
       }
-      
+       
       .title{
-        width: 50%;
         float: left;
         margin-bottom: 20px;
       }
       
       .right-section{
-        width: 40%;
         float: right;
         padding: 25px 25px 0 0;
         text-align: right;      
@@ -119,8 +104,25 @@
       }
       
       .right-section img{
-        margin-top: -5px;
-        margin-bottom: 60px;
+        width: 45px;
+        height: 45px;
+      }
+      
+      .project-details{
+        width: 100%;
+        padding-top: 2px;
+        float: left;
+        padding-bottom: 504px;
+        background-color: #FAF0E7;
+      }
+      
+      .poster{
+        width: 60%;
+        float: right;
+      }
+      
+      .poster img{
+        width: 100%;
       }
       
       .quote{
@@ -133,20 +135,19 @@
       }
       
       .citation{
-        margin-top: 2px;
         color: #77306A;
         margin: 0px 0px 20px 15px;
       }
       
       .body-text{
-        width: 95%;
+        width: 90%;
+        text-align: justiy;
         padding-left: 25px;
-        padding-right: 25px;
       }
       
       body{
         margin-left: 0px;
-        background-color: #FAF0E7;
+        background-color: #2c2c35;;
       }
       
       h1, h2, h3{
@@ -183,8 +184,9 @@
       </div>
       <div class="divider">  
       </div>
-      <div class="project-body">
-        <div class="project-details">
+      
+      <div class="project-wrapper">
+        <div class="project-header">
           <h1 class="title">
             &#8202;Party<br>Anthem<br>Concert
           </h1>
@@ -198,6 +200,8 @@
               <img src="photoshop_logo.png" alt="Adobe Photoshop logo">
               <img id="last-img" src="illustrator_logo.png" alt="Adobe Illustrator logo">
           </div>
+        </div>
+        <div class="project-details">
           <div class="body-text">
             <div class="quote">
               "Come on, come on, come on,
@@ -210,14 +214,10 @@
             Flashing lights, groovy music, and great times. Party Anthem Concert is a made up event targeting young adults fans of indie/alternative late-night music. Part of the french marketing campaign, both the poster and concert schedule use a dreamy colour palette paired with bold saturated graphics to hype up the event.    
           </div>
         </div>
-        <div class="poster">
-          <img src="poster-concert.png">
-        </div>
       </div>
-      
-      
-      
-      
+      <div class="poster">
+        <img src="poster-concert.png">
+      </div>
     </div>
   </body>
 </html>
